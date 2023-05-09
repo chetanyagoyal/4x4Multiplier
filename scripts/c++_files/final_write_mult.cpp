@@ -44,8 +44,7 @@ int main()
 		ofstream file2(str3);
 		for (int i = 0; i < 8; i++)
 			file2 << inArr[j][i];
-		file2 << endl;
-		file2 << final;
+		file2 << endl << final;
 		file2.close();
 	}
 }
