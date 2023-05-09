@@ -1,0 +1,105 @@
+* SPICE3 file created from full_adder.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_182_193# a_n5_n10# half_adder_0/a_19_n40# Gnd nfet w=8 l=4
++  ad=144 pd=68 as=168 ps=58
+M1001 a_191_n21# half_adder_0/a_22_n167# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=1276 ps=736
+M1002 half_adder_0/a_89_7# a_n5_n10# a_334_49# half_adder_0/w_70_0# pfet w=16 l=4
++  ad=336 pd=74 as=2052 ps=952
+M1003 half_adder_0/a_15_n3# a_n5_n10# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1004 half_adder_0/a_22_n100# a_n7_29# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1005 half_adder_0/a_15_n3# a_n5_n10# a_334_49# half_adder_0/w_67_n112# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1006 a_334_49# a_n5_n10# half_adder_0/a_22_n167# half_adder_0/w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=192 ps=64
+M1007 half_adder_0/a_89_n40# half_adder_0/a_22_n100# a_334_6# Gnd nfet w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1008 a_182_193# half_adder_0/a_22_n100# half_adder_0/a_89_7# half_adder_0/w_70_0# pfet w=16 l=4
++  ad=288 pd=100 as=0 ps=0
+M1009 half_adder_0/a_22_n167# a_n5_n10# half_adder_0/a_22_n198# Gnd nfet w=16 l=4
++  ad=112 pd=46 as=384 ps=80
+M1010 a_182_193# a_n7_29# half_adder_0/a_19_7# half_adder_0/w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=336 ps=74
+M1011 half_adder_0/a_19_n40# a_n7_29# a_334_6# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1012 half_adder_0/a_22_n167# a_n7_29# a_334_49# half_adder_0/w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1013 half_adder_0/a_22_n100# a_n7_29# a_334_49# half_adder_0/w_0_n107# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1014 a_191_n21# half_adder_0/a_22_n167# a_334_49# half_adder_0/w_71_n176# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1015 half_adder_0/a_22_n198# a_n7_29# a_334_6# Gnd nfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1016 half_adder_0/a_19_7# half_adder_0/a_15_n3# a_334_49# half_adder_0/w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1017 a_182_193# half_adder_0/a_15_n3# half_adder_0/a_89_n40# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1018 a_196_201# a_254_n12# half_adder_1/a_19_n40# Gnd nfet w=8 l=4
++  ad=144 pd=68 as=168 ps=58
+M1019 a_321_26# half_adder_1/a_22_n167# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1020 half_adder_1/a_89_7# a_254_n12# a_334_49# half_adder_1/w_70_0# pfet w=16 l=4
++  ad=336 pd=74 as=0 ps=0
+M1021 half_adder_1/a_15_n3# a_254_n12# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1022 half_adder_1/a_22_n100# a_182_193# a_334_6# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1023 half_adder_1/a_15_n3# a_254_n12# a_334_49# half_adder_1/w_67_n112# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1024 a_334_49# a_254_n12# half_adder_1/a_22_n167# half_adder_1/w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=192 ps=64
+M1025 half_adder_1/a_89_n40# half_adder_1/a_22_n100# a_334_6# Gnd nfet w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1026 a_196_201# half_adder_1/a_22_n100# half_adder_1/a_89_7# half_adder_1/w_70_0# pfet w=16 l=4
++  ad=288 pd=100 as=0 ps=0
+M1027 half_adder_1/a_22_n167# a_254_n12# half_adder_1/a_22_n198# Gnd nfet w=16 l=4
++  ad=112 pd=46 as=384 ps=80
+M1028 a_196_201# a_182_193# half_adder_1/a_19_7# half_adder_1/w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=336 ps=74
+M1029 half_adder_1/a_19_n40# a_182_193# a_334_6# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1030 half_adder_1/a_22_n167# a_182_193# a_334_49# half_adder_1/w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1031 half_adder_1/a_22_n100# a_182_193# a_334_49# half_adder_1/w_0_n107# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1032 a_321_26# half_adder_1/a_22_n167# a_334_49# half_adder_1/w_71_n176# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1033 half_adder_1/a_22_n198# a_182_193# a_334_6# Gnd nfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1034 half_adder_1/a_19_7# half_adder_1/a_15_n3# a_334_49# half_adder_1/w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1035 a_196_201# half_adder_1/a_15_n3# half_adder_1/a_89_n40# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1036 a_347_6# a_191_n21# a_347_49# w_327_43# pfet w=16 l=4
++  ad=144 pd=50 as=336 ps=74
+M1037 a_347_6# a_321_26# a_334_6# Gnd nfet w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1038 a_423_25# a_347_6# a_334_49# w_395_43# pfet w=9 l=4
++  ad=144 pd=50 as=0 ps=0
+M1039 a_334_6# a_191_n21# a_347_6# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1040 a_423_25# a_347_6# a_334_6# Gnd nfet w=4 l=4
++  ad=64 pd=40 as=0 ps=0
+M1041 a_347_49# a_321_26# a_334_49# w_327_43# pfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 a_334_6# Gnd 4.32fF
+C1 w_395_43# Gnd 1.10fF
+C2 w_327_43# Gnd 1.02fF
+C3 a_254_n12# Gnd 2.12fF
+C4 half_adder_1/a_15_n3# Gnd 2.17fF
+C5 half_adder_1/w_5_n173# Gnd 1.63fF
+C6 half_adder_1/w_70_0# Gnd 1.72fF
+C7 half_adder_1/w_0_0# Gnd 1.72fF
+C8 a_191_n21# Gnd 2.37fF
+C9 a_182_193# Gnd 2.65fF
+C10 a_n5_n10# Gnd 2.57fF
+C11 a_n7_29# Gnd 1.55fF
+C12 a_334_49# Gnd 4.36fF
+C13 half_adder_0/a_15_n3# Gnd 2.17fF
+C14 half_adder_0/w_5_n173# Gnd 1.63fF
+C15 half_adder_0/w_70_0# Gnd 1.72fF
+C16 half_adder_0/w_0_0# Gnd 1.72fF

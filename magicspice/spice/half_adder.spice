@@ -1,0 +1,48 @@
+* SPICE3 file created from half_adder.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_44_n40# a_40_n48# a_19_n40# Gnd nfet w=8 l=4
++  ad=144 pd=68 as=168 ps=58
+M1001 a_93_n188# a_22_n167# a_6_n78# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=400 ps=210
+M1002 a_89_7# a_40_n48# a_6_n113# w_70_0# pfet w=16 l=4
++  ad=336 pd=74 as=688 ps=280
+M1003 a_22_n100# a_15_n60# a_6_n78# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1004 a_15_n3# a_40_n48# a_6_n113# w_67_n112# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1005 a_6_n113# a_40_n48# a_22_n167# w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=192 ps=64
+M1006 a_89_n40# a_22_n100# a_6_n78# Gnd nfet w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1007 a_44_n40# a_22_n100# a_89_7# w_70_0# pfet w=16 l=4
++  ad=288 pd=100 as=0 ps=0
+M1008 a_22_n167# a_40_n48# a_22_n198# Gnd nfet w=16 l=4
++  ad=112 pd=46 as=384 ps=80
+M1009 a_44_n40# a_15_n60# a_19_7# w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=336 ps=74
+M1010 a_19_n40# a_15_n60# a_6_n78# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1011 a_22_n167# a_15_n60# a_6_n113# w_5_n173# pfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1012 a_22_n100# a_15_n60# a_6_n113# w_0_n107# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1013 a_93_n188# a_22_n167# a_6_n113# w_71_n176# pfet w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1014 a_22_n198# a_15_n60# a_6_n78# Gnd nfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1015 a_15_n3# a_40_n48# a_6_n78# Gnd nfet w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1016 a_19_7# a_15_n3# a_6_n113# w_0_0# pfet w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1017 a_44_n40# a_15_n3# a_89_n40# Gnd nfet w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 a_6_n78# Gnd 1.84fF
+C1 a_40_n48# Gnd 1.92fF
+C2 a_15_n60# Gnd 1.24fF
+C3 a_6_n113# Gnd 1.97fF
+C4 a_15_n3# Gnd 2.17fF
+C5 w_5_n173# Gnd 1.63fF
+C6 w_70_0# Gnd 1.72fF
+C7 w_0_0# Gnd 1.72fF
