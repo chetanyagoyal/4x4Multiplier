@@ -1,0 +1,109 @@
+magic
+tech scmos
+timestamp 1669569837
+<< nwell >>
+rect 328 43 387 84
+rect 395 43 445 81
+<< ntransistor >>
+rect 419 25 423 29
+rect 343 6 347 14
+rect 368 6 372 14
+<< ptransistor >>
+rect 343 49 347 65
+rect 368 49 372 65
+rect 419 49 423 58
+<< ndiffusion >>
+rect 407 25 419 29
+rect 423 25 433 29
+rect 342 6 343 14
+rect 347 6 353 14
+rect 361 6 368 14
+rect 372 6 373 14
+<< pdiffusion >>
+rect 342 49 343 65
+rect 347 49 368 65
+rect 372 49 373 65
+rect 407 49 419 58
+rect 423 49 433 58
+<< ndcontact >>
+rect 401 25 407 29
+rect 433 25 439 29
+rect 334 6 342 14
+rect 353 6 361 14
+rect 373 6 381 14
+<< pdcontact >>
+rect 334 49 342 65
+rect 373 49 381 65
+rect 401 49 407 58
+rect 433 49 439 58
+<< psubstratepcontact >>
+rect 401 15 407 21
+rect 334 -4 342 1
+rect 373 -6 381 -1
+<< nsubstratencontact >>
+rect 334 72 342 76
+rect 401 67 407 71
+<< polysilicon >>
+rect 182 197 186 260
+rect 196 205 200 266
+rect 182 193 252 197
+rect 343 65 347 75
+rect 368 65 372 75
+rect 419 58 423 68
+rect -7 29 33 33
+rect 343 30 347 49
+rect 326 26 347 30
+rect 343 14 347 26
+rect 368 14 372 49
+rect 419 38 423 49
+rect 389 34 423 38
+rect 419 29 423 34
+rect 419 22 423 25
+rect 57 -6 61 13
+rect -5 -10 61 -6
+rect 191 -17 195 7
+rect 254 -12 258 13
+rect 343 2 347 6
+rect 368 -17 372 6
+rect 191 -21 372 -17
+<< polycontact >>
+rect 182 260 186 266
+rect 196 201 200 205
+rect 321 26 326 30
+rect 381 34 389 38
+rect 191 7 195 11
+<< metal1 >>
+rect -4 260 182 266
+rect -4 198 3 260
+rect 93 244 215 250
+rect 200 201 261 205
+rect -4 191 60 198
+rect 347 81 353 153
+rect 334 76 407 81
+rect 334 65 342 72
+rect 401 71 407 76
+rect 401 58 407 67
+rect 125 26 195 30
+rect 191 11 195 26
+rect 373 23 381 49
+rect 433 29 439 49
+rect 353 17 381 23
+rect 401 21 407 25
+rect 353 14 361 17
+rect 334 1 342 6
+rect 92 -4 214 1
+rect 286 -4 334 1
+rect 373 -1 381 6
+rect 401 -1 407 15
+rect 342 -4 373 -1
+rect 334 -6 373 -4
+rect 381 -6 407 -1
+use half_adder  half_adder_0
+timestamp 1669569837
+transform 1 0 11 0 1 208
+box -11 -212 145 48
+use half_adder  half_adder_1
+timestamp 1669569837
+transform 1 0 208 0 1 208
+box -11 -212 145 48
+<< end >>
