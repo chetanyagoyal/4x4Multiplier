@@ -1,0 +1,159 @@
+MAGIC FULL ADDER
+
+.include TSMC_180nm.txt
+.global gnd vdd
+
+.option scale=0.09u
+
+*********
+*netlist*
+*********
+
+Vdd vdd gnd 1
+
+M1000 out c_in half_adder_1/a_19_n40# Gnd CMOSN w=8 l=4
++  ad=144 pd=68 as=168 ps=58
+M1001 a_321_26# half_adder_1/a_22_n167# gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=1276 ps=736
+M1002 half_adder_1/a_89_7# c_in vdd vdd CMOSP w=16 l=4
++  ad=336 pd=74 as=2052 ps=952
+M1003 half_adder_1/a_15_n3# c_in gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1004 half_adder_1/a_22_n100# sum_1 gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1005 half_adder_1/a_15_n3# c_in vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1006 vdd c_in half_adder_1/a_22_n167# vdd CMOSP w=8 l=4
++  ad=0 pd=0 as=192 ps=64
+M1007 half_adder_1/a_89_n40# half_adder_1/a_22_n100# gnd Gnd CMOSN w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1008 out half_adder_1/a_22_n100# half_adder_1/a_89_7# vdd CMOSP w=16 l=4
++  ad=288 pd=100 as=0 ps=0
+M1009 half_adder_1/a_22_n167# c_in half_adder_1/a_22_n198# Gnd CMOSN w=16 l=4
++  ad=112 pd=46 as=384 ps=80
+M1010 out sum_1 half_adder_1/a_19_7# vdd CMOSP w=16 l=4
++  ad=0 pd=0 as=336 ps=74
+M1011 half_adder_1/a_19_n40# sum_1 gnd Gnd CMOSN w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1012 half_adder_1/a_22_n167# sum_1 vdd vdd CMOSP w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1013 half_adder_1/a_22_n100# sum_1 vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1014 a_321_26# half_adder_1/a_22_n167# vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1015 half_adder_1/a_22_n198# sum_1 gnd Gnd CMOSN w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1016 half_adder_1/a_19_7# half_adder_1/a_15_n3# vdd vdd CMOSP w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1017 out half_adder_1/a_15_n3# half_adder_1/a_89_n40# Gnd CMOSN w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1018 sum_1 a half_adder_0/a_19_n40# Gnd CMOSN w=8 l=4
++  ad=144 pd=68 as=168 ps=58
+M1019 a_191_n21# half_adder_0/a_22_n167# gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1020 half_adder_0/a_89_7# a vdd vdd CMOSP w=16 l=4
++  ad=336 pd=74 as=0 ps=0
+M1021 half_adder_0/a_15_n3# a gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1022 half_adder_0/a_22_n100# b gnd Gnd CMOSN w=4 l=4
++  ad=52 pd=34 as=0 ps=0
+M1023 half_adder_0/a_15_n3# a vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1024 vdd a half_adder_0/a_22_n167# vdd CMOSP w=8 l=4
++  ad=0 pd=0 as=192 ps=64
+M1025 half_adder_0/a_89_n40# half_adder_0/a_22_n100# gnd Gnd CMOSN w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1026 sum_1 half_adder_0/a_22_n100# half_adder_0/a_89_7# vdd CMOSP w=16 l=4
++  ad=288 pd=100 as=0 ps=0
+M1027 half_adder_0/a_22_n167# a half_adder_0/a_22_n198# Gnd CMOSN w=16 l=4
++  ad=112 pd=46 as=384 ps=80
+M1028 sum_1 b half_adder_0/a_19_7# vdd CMOSP w=16 l=4
++  ad=0 pd=0 as=336 ps=74
+M1029 half_adder_0/a_19_n40# b gnd Gnd CMOSN w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1030 half_adder_0/a_22_n167# b vdd vdd CMOSP w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1031 half_adder_0/a_22_n100# b vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1032 a_191_n21# half_adder_0/a_22_n167# vdd vdd CMOSP w=8 l=4
++  ad=104 pd=42 as=0 ps=0
+M1033 half_adder_0/a_22_n198# b gnd Gnd CMOSN w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1034 half_adder_0/a_19_7# half_adder_0/a_15_n3# vdd vdd CMOSP w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+M1035 sum_1 half_adder_0/a_15_n3# half_adder_0/a_89_n40# Gnd CMOSN w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1036 a_347_6# a_191_n21# a_347_49# vdd CMOSP w=16 l=4
++  ad=144 pd=50 as=336 ps=74
+M1037 a_347_6# a_321_26# gnd Gnd CMOSN w=8 l=4
++  ad=168 pd=58 as=0 ps=0
+M1038 c_out a_347_6# vdd vdd CMOSP w=9 l=4
++  ad=144 pd=50 as=0 ps=0
+M1039 gnd a_191_n21# a_347_6# Gnd CMOSN w=8 l=4
++  ad=0 pd=0 as=0 ps=0
+M1040 c_out a_347_6# gnd Gnd CMOSN w=4 l=4
++  ad=64 pd=40 as=0 ps=0
+M1041 a_347_49# a_321_26# vdd vdd CMOSP w=16 l=4
++  ad=0 pd=0 as=0 ps=0
+
+ C0                    gnd Gnd 4.32fF
+ C1                    vdd Gnd 1.10fF
+ C2                    vdd Gnd 1.02fF
+ C3             a_191_n21# Gnd 2.37fF
+ C4      	     sum_1 Gnd 2.65fF
+ C5          		 a Gnd 2.57fF
+ C6          		 b Gnd 1.55fF
+ C7                    vdd Gnd 4.36fF
+ C8  half_adder_0/a_15_n3# Gnd 2.17fF
+ C9 		       vdd Gnd 1.63fF
+C10   		       vdd Gnd 1.72fF
+C11    		       vdd Gnd 1.72fF
+C12                   c_in Gnd 2.12fF
+C13  half_adder_1/a_15_n3# Gnd 2.17fF
+C14  		       vdd Gnd 1.63fF
+C15   		       vdd Gnd 1.72fF
+C16    		       vdd Gnd 1.72fF
+Cout                   out gnd    1fF
+
+
+Va    a gnd pulse(0 1 0 0.1u 0.1u 10u 20u)
+Vb    b gnd pulse(0 1 0 0.1u 0.1u 20u 40u) 
+Vc c_in gnd pulse(0 1 0 0.1u 0.1u 40u 80u) 
+
+*control*
+
+.control
+
+tran 25us 1625us 
+
+plot 	 v(a) 
+plot  	 v(b)
+plot  v(c_in)
+plot   v(out)
+plot v(c_out)
+
+let delay_sum_LH = 0
+let delay_sum_HL = 0
+let delay_carry_LH = 0
+let delay_carry_HL = 0
+meas tran   delay_sum_LH trig v(a) val = 0.5 rise = 1 targ   v(out) val = 0.5 rise = 1
+meas tran   delay_sum_HL trig v(a) val = 0.5 fall = 1 targ   v(out) val = 0.5 fall = 1
+meas tran delay_carry_LH trig v(a) val = 0.5 rise = 1 targ v(c_out) val = 0.5 rise = 1
+meas tran delay_carry_HL trig v(a) val = 0.5 fall = 2 targ v(c_out) val = 0.5 fall = 1
+
+let propDelSum = (abs(delay_sum_LH) + abs(delay_sum_HL))/2
+let propDelcarry = (abs(delay_carry_LH) + abs(delay_carry_HL))/2
+echo 			  " -----------------------------------------------------------" > "output_full_adder.txt"
+echo   	   "|->            high to low delay_sum = " "		     $&delay_sum_HL|"   >> "output_full_adder.txt"
+echo 		"|-> 	       low to high delay_sum = " "	       $&delay_sum_LH|" >> "output_full_adder.txt"
+echo        	   "|-> worst case propogation delay_sum = " "		$&propDelSum|"  >> "output_full_adder.txt"
+echo 			 " -----------------------------------------------------------" >> "output_full_adder.txt"
+echo   "|->            high to low delay_carry = " "		     $&delay_carry_HL|" >> "output_full_adder.txt"
+echo "|-> 	       low to high delay_carry = " "	       $&delay_carry_LH|"       >> "output_full_adder.txt"
+echo   "|-> worst case propogation delay_carry = " "		$&propDelcarry|"        >> "output_full_adder.txt"
+echo  			 " -----------------------------------------------------------" >> "output_full_adder.txt"
+
+
+.endc
+.end
+
